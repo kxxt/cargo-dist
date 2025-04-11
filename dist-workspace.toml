@@ -38,7 +38,7 @@ image = "quay.io/pypa/manylinux_2_28_x86_64"
 host = "x86_64-unknown-linux-musl"
 
 [dist.github-custom-runners.loongarch64-unknown-linux-gnu.container]
-image = "ubuntu:24.10"
+image = "ghcr.io/cross-rs/loongarch64-unknown-linux-gnu@sha256:84864973e1f34e5884cde86857cbcecfd333703368ca7c0d2689929b4ba2cd43"
 
 [dist.github-custom-runners]
 riscv64gc-unknown-linux-gnu = "ubuntu-22.04"
