@@ -18,7 +18,8 @@ hosting = "github"
 # Whether to install an updater program
 install-updater = false
 # Whether to enable GitHub Attestations
-github-attestations = true
+# Looks like it doesn't play nice with plus signs in the tags
+github-attestations = false
 # Path that installers should place binaries in
 install-path = "CARGO_HOME"
 
