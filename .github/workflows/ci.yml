@@ -8,8 +8,8 @@ on:
   # Every push to...
   push:
     branches:
-      # The main branch
-      - main
+      # The default branch
+      - kxxt
   # And once a week?
   # This can catch things like "rust updated and actually regressed something"
   schedule:
