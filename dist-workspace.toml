@@ -42,3 +42,5 @@ image = "ghcr.io/kxxt/loongarch64-linux-gnu-runner:latest"
 
 [dist.github-custom-runners]
 riscv64gc-unknown-linux-gnu = "ubuntu-22.04"
+x86_64-unknown-linux-gnu = "ubuntu-22.04"
+x86_64-unknown-linux-musl = "ubuntu-22.04"
